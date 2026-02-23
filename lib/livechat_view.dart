@@ -44,7 +44,7 @@ class LivechatView extends StatelessWidget {
       listener: _onBlocPresentationListener,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('P2P Call Sample [Your ID (${state.selfId})]}'),
+          title: Text('P2P Call Sample [Your ID (${state.selfId})]'),
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         floatingActionButton: state.inCalling
