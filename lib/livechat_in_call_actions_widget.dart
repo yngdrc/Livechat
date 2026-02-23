@@ -25,6 +25,7 @@ class _LivechatInCallActionsWidget extends StatelessWidget {
             backgroundColor: Colors.pink,
             child: Icon(Icons.call_end),
           ),
+          // TODO: icon based on mic state
           FloatingActionButton(
             tooltip: 'Mute Mic',
             onPressed: () {
